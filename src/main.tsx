@@ -1,7 +1,6 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import { Buffer } from 'buffer'
-import '@interchain-ui/react/styles'
 import App from './App.tsx'
 import './index.css'
 

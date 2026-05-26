@@ -54,11 +54,6 @@ export default defineConfig({
     'process.env': {},
   },
   optimizeDeps: {
-    esbuildOptions: {
-      define: {
-        global: 'globalThis',
-      },
-    },
     include: [
       'buffer',
       'process',
@@ -75,12 +70,8 @@ export default defineConfig({
     force: true,
   },
   build: {
-    commonjsOptions: {
-      transformMixedEsModules: true,
-    },
-    rollupOptions: {
-      external: (id) => {
-        // Don't externalize these, but handle them specially
+    rolldownOptions: {
+      external: (id: string) => {
         if (id.includes('libsodium')) {
           return false
         }
