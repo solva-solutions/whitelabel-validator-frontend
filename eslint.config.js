@@ -52,6 +52,7 @@ export default [
         },
       ],
       'no-unreachable': 'warn',
+      'preserve-caught-error': 'off',
     },
   },
   {
