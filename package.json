@@ -14,7 +14,7 @@
     "@chain-registry/utils": "^2.0.160",
     "@chain-registry/v2": "^1.71.237",
     "@chain-registry/v2-types": "^0.53.146",
-    "@cosmjs/encoding": "^0.38.1",
+    "@cosmjs/encoding": "^0.39.0",
     "@cosmjs/proto-signing": "^0.38.1",
     "@cosmjs/stargate": "^0.38.1",
     "@cosmos-kit/core": "^2.18.1",
