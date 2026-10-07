@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@chain-registry/client": "^2.0.243",
-    "@chain-registry/utils": "^2.0.214",
+    "@chain-registry/utils": "^2.0.281",
     "@chain-registry/v2": "^1.71.237",
     "@chain-registry/v2-types": "^0.53.146",
     "@cosmjs/encoding": "^0.39.0",
